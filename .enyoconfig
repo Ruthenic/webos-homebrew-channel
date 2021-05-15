@@ -9,7 +9,8 @@
     "layout",
     "svg",
     "enyo-ilib",
-    "enyo-webos"
+    "enyo-webos",
+    "DOMPurify"
   ],
   "sources": {
     "enyo": "https://github.com/enyojs/enyo.git",
@@ -18,7 +19,8 @@
     "layout": "https://github.com/enyojs/layout.git",
     "svg": "https://github.com/enyojs/svg.git",
     "enyo-ilib": "https://github.com/enyojs/enyo-ilib.git",
-    "enyo-webos": "https://github.com/enyojs/enyo-webos.git"
+    "enyo-webos": "https://github.com/enyojs/enyo-webos.git",
+    "DOMPurify": "https://github.com/cure53/DOMPurify.git"
   },
   "targets": {
     "enyo": "2.7.0",

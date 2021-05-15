@@ -19,3 +19,6 @@
 [submodule "lib/enyo-webos"]
 	path = lib/enyo-webos
 	url = https://github.com/enyojs/enyo-webos
+[submodule "lib/DOMPurify"]
+	path = lib/DOMPurify
+	url = https://github.com/cure53/DOMPurify
