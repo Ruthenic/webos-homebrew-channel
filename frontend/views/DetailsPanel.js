@@ -225,7 +225,7 @@ module.exports = kind({
   },
 
   refresh: function () {
-    console.info('refresh');
+    console.info('refresh', this.repositoryURL, this.model);
     this.set('packageInfo', new Model(undefined, {
       source: new AjaxSource(),
       url: new URL(this.model.get('manifestUrl'), this.repositoryURL).href,
